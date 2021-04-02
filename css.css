@@ -1,0 +1,81 @@
+
+*{
+  outline:none;
+  font-family:Fredoka One;
+}
+
+html{
+  background-image: url(https://bia.lighting/wp-content/uploads/2016/04/Sign-Up-Background.png);
+  background-position:center;
+  background-size: cover;
+  margin:0;
+  padding:0;
+  width: 100%;
+}
+
+.form-container{
+  background-color: #2121215f;
+  width: 350px;
+  height: auto; 
+  margin: auto;
+  padding:50px 5px ;
+  backdrop-filter:blur(10px);
+  border-radius:20px;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+}
+
+
+legend, label{
+  color: white;
+}
+legend{
+  font-size: 17pt;
+  margin-bottom: 20px;
+}
+
+label{
+  font-size: 13pt;
+  display:flex;
+  margin-left:-200px;
+}
+
+label:nth-of-type(2){
+  margin-left: -230px;
+}
+
+input{
+  caret-color: black;
+  border-radius: 20px;
+  border: none;
+  margin: 10px 10px 30px 10px;
+  padding: 20px;
+  width:250px;
+}
+
+button{
+  padding:10px 20px;
+  margin:0px 15px;
+  border-radius: 16px;
+  background-color: white;
+  border: none;
+}
+
+textarea{
+  resize:none;
+  width: 280px;
+  border-radius: 16px;
+  padding: 10px;
+  border:none;
+  margin: 10px 10px 20px 10px;
+}
+  textarea::-webkit-scrollbar {
+  display: none !important;
+}
+
+a{
+  text-decoration:none;
+  color: black;
+}
